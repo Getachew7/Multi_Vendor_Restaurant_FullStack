@@ -1254,7 +1254,7 @@ a.add-menu-item:not(.add-menu-item-list) { display: none; }
 .user-listing .user-list ul.panel-group li .checkbox-list { margin: 0; }
 .user-listing .user-list ul.panel-group li .checkbox-list li { border: 0; margin: 0 -4px 18px 0; padding: 0 15px; background: none; }
 .user-listing .user-list ul.panel-group .checkbox-list label { color: #4a4a4a; }
-.alert { -webkit-box-shadow: none; box-shadow: none; }
+
 /* User Listing Style End */
 .user-orders-list { position: relative; }
 ul.user-orders-fliters { position: absolute; right: 0; top: 0; margin: 0; padding: 0; }

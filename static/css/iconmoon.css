@@ -8594,6 +8594,7 @@
 }
 .icon-printer7:before {
   content: "\ed69";
+  padding: 25px;
 }
 .icon-location3:before {
   content: "\ed6a";
