@@ -145,3 +145,12 @@ MESSAGE_TAGS = {
     messages.SUCCESS: 'success',
     messages.ERROR: 'danger',
 }
+
+# Email configration
+EMAIL_BACKEND = config('EMAIL_BACKEND')
+EMAIL_HOST = config('EMAIL_HOST')
+EMAIL_PORT = config('EMAIL_PORT', cast=int)
+EMAIL_HOST_USER = config('EMAIL_HOST_USER')
+EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
+EMAIL_USE_TLS = True
+DEFULT_FROM_EMAIL = 'FoodOnline Marketplace Teame<getchyaz7@gmail.com>'
